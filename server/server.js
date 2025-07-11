@@ -9,7 +9,10 @@ import userRouter from "./routes/user.route.js";
 const app = express();
 const port = process.env.PORT || 4000;
 
-const allowedOrigins = ["http://localhost:5173"]; // smj nahi aaya
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://macu-auth.vercel.app",
+]; // smj nahi aaya
 
 app.use(express.json());
 app.use(cookieParser());
