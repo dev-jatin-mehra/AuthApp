@@ -14,7 +14,6 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
-  console.log({ backend }); // to debug
 
   const onSubmitHandle = async (e) => {
     try {
