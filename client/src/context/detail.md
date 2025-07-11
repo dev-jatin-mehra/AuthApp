@@ -1,0 +1,1 @@
+- store all the states and functions of our application to easily access in any component also to avoid prop drilling
