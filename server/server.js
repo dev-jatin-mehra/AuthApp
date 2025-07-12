@@ -12,13 +12,12 @@ const port = process.env.PORT || 4000;
 const allowedOrigins = [
   "http://localhost:5173",
   "https://macu-auth.vercel.app",
-]; // smj nahi aaya
+]; 
 
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({ origin: allowedOrigins, credentials: true })); // Send the cookies in response from express app
 
-//API endpoints
 app.get("/", (req, res) => {
   res.send("Auth Backend");
 });
