@@ -1,6 +1,6 @@
-## Macu Auth – Modular Authentication System
+## AuthKIT – Modular Authentication System
 
-Macu Auth is a reusable full-stack authentication system built using React, Node.js, Express, and MongoDB. It is designed to serve as a ready-made authentication wrapper for web applications so that developers can skip writing auth logic from scratch and focus on building core product features.
+AuthKIT is a reusable full-stack authentication system built using React, Node.js, Express, and MongoDB. It is designed to serve as a ready-made authentication wrapper for web applications so that developers can skip writing auth logic from scratch and focus on building core product features.
 
 ## Description
 
