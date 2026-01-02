@@ -4,17 +4,17 @@ export const REGISTER_USER_TEMPLATE = `
         <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" 
              alt="Welcome {{name}}" 
              style="width: 120px; margin-bottom: 20px;" />
-        <h2 style="color: #1f2937;">Welcome to <span style="color: #6366f1;">Macu Auth</span> 👋</h2>
+        <h2 style="color: #1f2937;">Welcome to <span style="color: #6366f1;">AuthKIT</span> 👋</h2>
         <p style="font-size: 16px; color: #4b5563;">
           We're thrilled to have you on board, {{name}} 🎉
           <br /><br />
-          Macu Auth helps you securely log in, register, and manage sessions with ease. You're all set to verify your email and get started.
+          AuthKIT helps you securely log in, register, and manage sessions with ease. You're all set to verify your email and get started.
         </p>
         <p style="margin-top: 30px; font-size: 14px; color: #9ca3af;">
           Need help? Just reply to this email or visit our support page.
         </p>
         <p style="margin-top: 30px; font-size: 12px; color: #d1d5db;">
-          © {{date}} Macu Auth. All rights reserved.
+          © {{date}} AuthKIT. All rights reserved.
         </p>
       </div>
     </div>
@@ -23,10 +23,10 @@ export const REGISTER_USER_TEMPLATE = `
 export const EMAIL_VERIFY_TEMPLATE = `
     <div style="font-family: Arial, sans-serif; background-color: #f4f4f5; padding: 20px; border-radius: 10px; max-width: 600px; margin: auto;">
       <div style="text-align: center;">
-        <img src="https://media.giphy.com/media/fxsqOYnIMEefC/giphy.gif" alt="Macu Auth Logo" style="width: 80px; margin-bottom: 20px;" />
+        <img src="https://media.giphy.com/media/fxsqOYnIMEefC/giphy.gif" alt="AuthKIT Logo" style="width: 80px; margin-bottom: 20px;" />
         <h2 style="color: #1f2937;">Verify Your Email Address</h2>
         <p style="color: #4b5563; font-size: 16px;">
-          To complete your registration with <strong>Macu Auth</strong>, please use the verification code below:
+          To complete your registration with <strong>AuthKIT</strong>, please use the verification code below:
         </p>
         <div style="margin: 30px auto; background-color: #111827; color: #ffffff; width: fit-content; padding: 15px 30px; border-radius: 8px; font-size: 24px; letter-spacing: 5px;">
           {{otp}}
@@ -35,7 +35,7 @@ export const EMAIL_VERIFY_TEMPLATE = `
           This code is valid for a limited time. If you didn’t request this, please ignore this email.
         </p>
         <p style="margin-top: 40px; font-size: 12px; color: #9ca3af;">
-          © {{date}} Macu Auth. All rights reserved.
+          © {{date}} AuthKIT. All rights reserved.
         </p>
       </div>
     </div>
@@ -59,7 +59,7 @@ export const PASSWORD_RESET_TEMPLATE = `
           This code is valid for a limited time. If you didn’t request this, please ignore this email.
         </p>
         <p style="margin-top: 40px; font-size: 12px; color: #9ca3af;">
-          © {{date}} Macu Auth. All rights reserved.
+          © {{date}} AuthKIT. All rights reserved.
         </p>
       </div>
     </div>

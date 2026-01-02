@@ -41,7 +41,7 @@ export const register = async (req, res) => {
     const mailOptions = {
       from: process.env.SENDER_EMAIL,
       to: email,
-      subject: "🎉 Welcome to Macu Auth! (Experimental)",
+      subject: "🎉 Welcome to AuthKIT! (Experimental)",
       html: REGISTER_USER_TEMPLATE.replace(
         "{{date}}",
         new Date().getFullYear()
@@ -125,7 +125,7 @@ export const sendVerifyOtp = async (req, res) => {
     const mailOptions = {
       from: process.env.SENDER_EMAIL,
       to: user.email,
-      subject: "🔐 Verify Your Macu Auth Account",
+      subject: "🔐 Verify Your AuthKIT Account",
       html: EMAIL_VERIFY_TEMPLATE.replace("{{otp}}", otp).replace(
         "{{date}}",
         new Date().getFullYear()
